@@ -1,0 +1,22 @@
+.upcoming-movies-title{
+    background-color: #ff9999;
+    padding: 8px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.grid-list-container{
+    flex-wrap: nowrap !important;
+    height: 250px;
+    width: 100%;
+    overflow: auto;
+}
+
+.movie-poster-image{
+    height: 100%;
+    width: auto;
+}
+
+.movie-title{
+    background: linear-gradient(to top, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.3) 70%, rgba(0,0,0,0) 100%)
+}
