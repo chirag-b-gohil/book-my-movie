@@ -1,0 +1,32 @@
+.header {
+    background: #222;
+    padding: 8px 32px 8px 16px;
+}
+
+.logo {
+    background-color: #ff7f7f;
+    height: 35px;
+    animation: rotation 8s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotateY(0deg);
+    }
+    to {
+        transform: rotateY(359deg);
+    }
+}
+
+.header-button-container button:not(:last-child){
+    margin-right: 10px;
+}
+
+.tab-container{
+    padding: 0;
+    text-align: center;
+}
+
+.auth-form{
+    padding-top: 20px;
+}

@@ -1,0 +1,12 @@
+.movie-poster-image{
+    height: 100%;
+    width: auto;
+}
+
+.movie-title{
+    background: linear-gradient(to top, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.3) 70%, rgba(0,0,0,0) 100%)
+}
+
+.released-movie-tile{
+    cursor: pointer;
+}

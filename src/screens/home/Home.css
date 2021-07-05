@@ -1,0 +1,17 @@
+.home-page .flex-container {
+    display: flex;
+}
+
+.home-page .flex-container>div {
+    margin: 16px;
+}
+
+.home-page .left {
+    padding-top: 20px;
+    width: 76%;
+}
+
+.home-page .right {
+    padding-top: 20px;
+    width: 24%;
+}
